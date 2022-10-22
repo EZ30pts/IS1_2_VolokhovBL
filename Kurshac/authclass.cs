@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kurshac
 {
-    internal class authclass
+    class authclass
     {
         public static bool auth = false;
         public static string auth_id = null;

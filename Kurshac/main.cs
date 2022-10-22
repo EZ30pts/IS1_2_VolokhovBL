@@ -10,26 +10,25 @@ using System.Windows.Forms;
 
 namespace Kurshac
 {
-    public partial class main : Form
+    public partial class MAIN : Form
     {
-        public main()
+        public MAIN()
         {
             InitializeComponent();
-            StartPosition = FormStartPosition.CenterScreen;
         }
 
-        private void main_Load(object sender, EventArgs e)
+        private void MAIN_Load(object sender, EventArgs e)
         {
             Hide();
             auth MAIN = new auth();
             MAIN.ShowDialog();
             if (authclass.auth)
             {
-                this.Show();
+                Show();
             }
             else
             {
-                this.Close();
+                Close();
             }
         }
     }

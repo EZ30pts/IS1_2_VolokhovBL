@@ -19,7 +19,7 @@ namespace Kurshac
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
         }
-        string connStr = "server=chuc.caseum.ru;port=33333;user=st_1_20_7;database=is_1_20_st7_KURS;password=70179163;";
+        string connStr = "server=10.90.12.110;port=33333;user=st_1_20_7;database=is_1_20_st7_KURS;password=70179163;";
         MySqlConnection conn;
 
         private void auth_Load(object sender, EventArgs e)
@@ -53,7 +53,8 @@ namespace Kurshac
             conn.Close();
         }
 
-        private void guna2Button1_Click_1(object sender, EventArgs e)
+
+        private void guna2Button2_Click(object sender, EventArgs e)
         {
             string sql = "SELECT * FROM login_password WHERE login = @un and  password= @up";
             conn.Open();
@@ -71,13 +72,12 @@ namespace Kurshac
             {
                 authclass.auth = true;
                 GetUserInfo(guna2TextBox1.Text);
-                this.Close();
+                Close();
             }
             else
             {
                 MessageBox.Show("Неверные данные авторизации!");
             }
         }
-
     }
 }

@@ -94,19 +94,19 @@
       <DependentUpon>auth.cs</DependentUpon>
     </Compile>
     <Compile Include="authclass.cs" />
-    <Compile Include="main.cs">
+    <Compile Include="MAIN.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="main.Designer.cs">
-      <DependentUpon>main.cs</DependentUpon>
+    <Compile Include="MAIN.Designer.cs">
+      <DependentUpon>MAIN.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="auth.resx">
       <DependentUpon>auth.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="main.resx">
-      <DependentUpon>main.cs</DependentUpon>
+    <EmbeddedResource Include="MAIN.resx">
+      <DependentUpon>MAIN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
