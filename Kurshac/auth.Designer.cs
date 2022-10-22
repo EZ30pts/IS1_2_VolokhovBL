@@ -95,7 +95,7 @@
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(180, 45);
             this.guna2Button2.TabIndex = 4;
-            this.guna2Button2.Text = "Sign In";
+            this.guna2Button2.Text = "Войти";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // pictureBox1
@@ -113,9 +113,9 @@
             this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2ControlBox1.FillColor = System.Drawing.Color.White;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.Black;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(263, -1);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(257, -1);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(20, 17);
+            this.guna2ControlBox1.Size = new System.Drawing.Size(29, 27);
             this.guna2ControlBox1.TabIndex = 6;
             // 
             // auth
@@ -123,7 +123,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(281, 387);
+            this.ClientSize = new System.Drawing.Size(284, 379);
             this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.guna2Button2);
