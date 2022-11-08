@@ -63,6 +63,26 @@ namespace Kurshac.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap photoeditorsdk_export {
+            get {
+                object obj = ResourceManager.GetObject("photoeditorsdk-export", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap undraw_medicine_b1ol {
+            get {
+                object obj = ResourceManager.GetObject("undraw_medicine_b1ol", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap undraw_mello_otq1 {
             get {
                 object obj = ResourceManager.GetObject("undraw_mello_otq1", resourceCulture);
@@ -76,6 +96,16 @@ namespace Kurshac.Properties {
         internal static System.Drawing.Bitmap undraw_mello_otq1__1_ {
             get {
                 object obj = ResourceManager.GetObject("undraw_mello_otq1 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Новый_проект {
+            get {
+                object obj = ResourceManager.GetObject("Новый проект", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

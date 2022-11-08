@@ -94,6 +94,24 @@
       <DependentUpon>auth.cs</DependentUpon>
     </Compile>
     <Compile Include="authclass.cs" />
+    <Compile Include="Balans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Balans.Designer.cs">
+      <DependentUpon>Balans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Katalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Katalog.Designer.cs">
+      <DependentUpon>Katalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Korzina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Korzina.Designer.cs">
+      <DependentUpon>Korzina.cs</DependentUpon>
+    </Compile>
     <Compile Include="MAIN.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +122,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="auth.resx">
       <DependentUpon>auth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Balans.resx">
+      <DependentUpon>Balans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Katalog.resx">
+      <DependentUpon>Katalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Korzina.resx">
+      <DependentUpon>Korzina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MAIN.resx">
       <DependentUpon>MAIN.cs</DependentUpon>
@@ -137,6 +164,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\undraw_mello_otq1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_medicine_b1ol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photoeditorsdk-export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Новый проект.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

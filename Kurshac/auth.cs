@@ -19,7 +19,7 @@ namespace Kurshac
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
         }
-        string connStr = "server=10.90.12.110;port=33333;user=st_1_20_7;database=is_1_20_st7_KURS;password=70179163;";
+        string connStr = "server=chuc.caseum.ru;port=33333;user=st_1_20_7;database=is_1_20_st7_KURS;password=70179163;";
         MySqlConnection conn;
 
         private void auth_Load(object sender, EventArgs e)
