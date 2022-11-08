@@ -85,9 +85,9 @@ namespace Kurshac
             this.guna2Button1.FillColor = System.Drawing.Color.White;
             this.guna2Button1.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.Location = new System.Drawing.Point(147, 28);
+            this.guna2Button1.Location = new System.Drawing.Point(196, 31);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(144, 29);
+            this.guna2Button1.Size = new System.Drawing.Size(118, 29);
             this.guna2Button1.TabIndex = 6;
             this.guna2Button1.Text = "Каталог";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -103,9 +103,9 @@ namespace Kurshac
             this.guna2Button2.FillColor = System.Drawing.Color.White;
             this.guna2Button2.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.guna2Button2.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button2.Location = new System.Drawing.Point(341, 28);
+            this.guna2Button2.Location = new System.Drawing.Point(369, 31);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(144, 29);
+            this.guna2Button2.Size = new System.Drawing.Size(118, 29);
             this.guna2Button2.TabIndex = 7;
             this.guna2Button2.Text = "Корзина";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -121,9 +121,9 @@ namespace Kurshac
             this.guna2Button3.FillColor = System.Drawing.Color.White;
             this.guna2Button3.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.guna2Button3.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button3.Location = new System.Drawing.Point(522, 28);
+            this.guna2Button3.Location = new System.Drawing.Point(532, 31);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(144, 29);
+            this.guna2Button3.Size = new System.Drawing.Size(118, 29);
             this.guna2Button3.TabIndex = 8;
             this.guna2Button3.Text = "Баланс";
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
