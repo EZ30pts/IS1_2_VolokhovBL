@@ -73,6 +73,36 @@ namespace Kurshac.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap undraw_injured_9757__1_ {
+            get {
+                object obj = ResourceManager.GetObject("undraw_injured_9757 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap undraw_injured_9757__2_ {
+            get {
+                object obj = ResourceManager.GetObject("undraw_injured_9757 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap undraw_injured_9757__3_ {
+            get {
+                object obj = ResourceManager.GetObject("undraw_injured_9757 (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap undraw_medicine_b1ol {
             get {
                 object obj = ResourceManager.GetObject("undraw_medicine_b1ol", resourceCulture);
@@ -106,6 +136,16 @@ namespace Kurshac.Properties {
         internal static System.Drawing.Bitmap Новый_проект {
             get {
                 object obj = ResourceManager.GetObject("Новый проект", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Новый_проект1 {
+            get {
+                object obj = ResourceManager.GetObject("Новый проект1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

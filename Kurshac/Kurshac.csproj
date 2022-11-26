@@ -174,5 +174,17 @@
   <ItemGroup>
     <None Include="Resources\Новый проект.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_injured_9757 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_injured_9757 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_injured_9757 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Новый проект1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
