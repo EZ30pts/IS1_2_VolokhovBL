@@ -66,7 +66,7 @@ namespace Kurshac
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Korzina";
-            this.Text = "Korzina";
+            this.Text = " ";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

@@ -16,5 +16,15 @@ namespace Kurshac
         {
             InitializeComponent();
         }
+
+        private void guna2Button10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
